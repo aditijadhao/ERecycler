@@ -1,0 +1,2 @@
+# Erecycler
+A javafx project
