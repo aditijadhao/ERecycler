@@ -1,7 +1,6 @@
 # Erecycler
 A javafx project
 
-
 JRE 8 and Java 8 versions required to execute this project
 
 Install mysql version 5.5
@@ -51,16 +50,16 @@ CREATE TABLE `brand` (
 
 #Eclipse 
 
+#execution
+
 Download all files from this repository. link for repository:  https://github.com/aditijadhao/Erecycler
 
 Open Eclipse.
 
-Import the E
+Import the erecyclePro file into eclipse workspace
 
+Run as Java Application
 
+Select the matching item as smartecyclePro- smartecyclepro
 
-
-
-#execution
-
-During execution of the project we have to select SmartecyclePro 
+App will open
