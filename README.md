@@ -1,25 +1,10 @@
 # Erecycler
 A javafx project
-# ERecycler
+
+
 JRE 8 and Java 8 versions required to execute this project
 
 Install mysql version 5.5
-
-Create new javafx project in eclipse named Erecyler
-
-Delete all packages and files under src
-
-Download all files from this repository
-
-Create a package smartecyclepro
-
-Copy all java files, controller files, fxml files and paste it in smartrecyclepro package of the javafx project created
-
-Create a folder with the name images in smartecyclepro package
-
-copy images which were downloaded into this images folder
-
-Import the required jar files (jfoenix-8.0.8.jar, jfxrt.jar, jfxswt.jar, mysql-connector-5.1.18.jar)
 
 Create a database named Erecycler in mysql
 
@@ -62,6 +47,19 @@ DROP TABLE IF EXISTS `brand`;
 CREATE TABLE `brand` (
   `brandname` varchar(30) NOT NULL
 );
+
+
+#Eclipse 
+
+Download all files from this repository. link for repository:  https://github.com/aditijadhao/Erecycler
+
+Open Eclipse.
+
+Import the E
+
+
+
+
 
 #execution
 
