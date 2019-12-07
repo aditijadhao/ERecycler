@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="brandsPane" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartecyclepro.FXMLBrandsController">
+   <children>
+      <Button fx:id="btnApple" layoutX="41.0" layoutY="107.0" mnemonicParsing="false" onAction="#handleBtnAppleAction" prefHeight="75.0" prefWidth="83.0" style="-fx-border-color: blue;">
+         <graphic>
+            <ImageView fitHeight="83.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/56-apple-512.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="250.0" layoutY="31.0" text="Select Brand">
+   "src/smartecyclepro/FXMLBrands.fxml"      <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnHP" layoutX="248.0" layoutY="108.0" mnemonicParsing="false" onAction="#handleBtnHPAction" prefHeight="93.0" prefWidth="105.0" style="-fx-border-color: blue;">
+         <graphic>
+            <ImageView fitHeight="79.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/1024px-HP_logo_2012.svg.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnDell" layoutX="428.0" layoutY="107.0" mnemonicParsing="false" onAction="#handleBtnDellAction" prefHeight="93.0" prefWidth="115.0" style="-fx-border-color: blue;">
+         <graphic>
+            <ImageView fitHeight="82.0" fitWidth="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/dell-logo-png-new-svg-image-2000.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnMicrosoft" layoutX="41.0" layoutY="229.0" mnemonicParsing="false" onAction="#handleBtnMicrosoftAction" prefHeight="93.0" prefWidth="105.0" style="-fx-border-color: blue;">
+         <graphic>
+            <ImageView fitHeight="78.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Microsoft-Logo-PNG.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnSamsung" layoutX="248.0" layoutY="227.0" mnemonicParsing="false" onAction="#handleBtnSamsungAction" prefHeight="97.0" prefWidth="105.0" style="-fx-border-color: blue;">
+         <graphic>
+            <ImageView fitHeight="85.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/samsung_logo_PNG14.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnPhillips" layoutX="428.0" layoutY="229.0" mnemonicParsing="false" onAction="#handleBtnPhillipsAction" prefHeight="97.0" prefWidth="120.0" style="-fx-border-color: blue;">
+         <graphic>
+            <ImageView fitHeight="77.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/philips-logo-wordmark.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnNikon" layoutX="41.0" layoutY="362.0" mnemonicParsing="false" onAction="#handleBtnNikonAction" prefHeight="93.0" prefWidth="105.0" style="-fx-border-color: blue;">
+         <graphic>
+            <ImageView fitHeight="77.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/nikon-logo-png.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnSony" layoutX="250.0" layoutY="362.0" mnemonicParsing="false" onAction="#handleBtnSonyAction" prefHeight="87.0" prefWidth="105.0" style="-fx-border-color: blue;">
+         <graphic>
+            <ImageView fitHeight="75.0" fitWidth="86.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/5848242ecef1014c0b5e49c8.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnCanon" layoutX="428.0" layoutY="362.0" mnemonicParsing="false" onAction="#handleBtnCanonAction" prefHeight="86.0" prefWidth="115.0" style="-fx-border-color: blue;">
+         <graphic>
+            <ImageView fitHeight="67.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Canon_logo_vector.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnIntel" layoutX="250.0" layoutY="473.0" mnemonicParsing="false" onAction="#handleBtnIntelAction" prefHeight="86.0" prefWidth="105.0" style="-fx-border-color: blue;">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/1024px-Intel-logo.svg.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
